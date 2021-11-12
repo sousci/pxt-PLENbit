@@ -154,7 +154,6 @@ namespace plenbit {
   let pleEyeRGB = neopixel.rgb(0, 255, 0)
   let plenStrip: neopixel.Strip = null
   let plenEyeCreated = false;
-  let hardwareVersion = parseInt(control.hardwareVersion())
   let AM2320LastUpdateTime_A = 0
   let AM2320LastUpdateTime_B = 0
   let temperature = 0
